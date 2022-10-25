@@ -1,0 +1,54 @@
+Github by Kevs
+
+1. How to install Git on windows
+2. Adding project/files to git for tracking
+3. Git commands
+4. Pushing project to remote repository(github)
+_____________________________
+
+Installation
+
+Step 1 : check if git is already installed
+             git --version
+
+Step 2 : download and install git
+
+Step 3 : add your project to git
+
+Commands
+
+Steps: 
+   git config --global user.email "andreikevincasoco@gmail.com"
+   git config --global user.name "KevinCasoco"
+
+  - git init // git initialized
+  - git status // status of the repository
+  - git add index.php // adding new files
+  - git commit -m “adding index file” // commiting new files
+  - dir > design.css
+  - git commit -m “adding design file” // commiting new files
+  - git remote add origin https://github.com/KevinCasoco/Inventory-System.git // adding to the origin(github account)
+  - git push -u origin master // pushing to the origin(github repository)
+  - git log // history
+  - git —help // helps
+
+Branching and Merging
+———————————
+1. What are branches
+2. How to create branch
+3. How to checkout branch
+4. How to merge branch to master
+5. How to delete branch (local and remote)
+_______________________________________
+
+Steps:  
+   - git branch NewFeatures // Create branch
+   - git checkout NewFeatures // locating new branch
+   - touch function.js // creating new file
+   - git add . // adding file to branches
+   - git commit -m "adding setting files in branch" // commiting new file to repository
+   - git push -u origin NewFeatures // pushing new file	
+   - git checkout master
+   - git merge NewFeatures // Merge new branch in master branch
+   - git branch -d NewFeatures // delete branch from local
+   - git push origin —-delete NewFeatures // delete branch from remote

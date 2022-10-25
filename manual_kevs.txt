@@ -1,0 +1,5 @@
+config.php	    edit_product.php	       manual_kevs.txt
+daily_sales.php     index.html		       sale_report_process.php
+database.php	    index.php		       sales.php
+delete_product.php  ktlc_inventory_system.sql  sales_report.php
+edit_account.php    logout.php		       users.php
